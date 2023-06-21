@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
     <title>APIs</title>
+    <!-- Cambiar la ubicacion de los estilos por debajo del title, mantener las rutas con ubicacion de "raiz"
+       ejemplo: ./assets/ donde el ./ vendria siendo la raiz de mi servidor-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <p class="name"></p>
-    <p class="blog"></p>
+  
+  <div class="container">
+    <a id="name"></a>
+    <a id="blog"></a>
+    <p id="location"></p>
+  </div>
 
-  <script src="../assets/js/app.js"></script>
+  <!-- tener una ruta de identacion al igual que el css dentreo de ./assets/ carperta raiz del proyecto -->
+  <script src="./assets/js/app.js"></script>
 </body>
 </html>
